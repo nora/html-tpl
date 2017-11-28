@@ -1,3 +1,25 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
+# composer
+/storage/*.key
+/vendor
+
+#ide
+/.idea
+
+# homestead
+/.vagrant
+Homestead.json
+Homestead.yaml
+
+# node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# env
+.env
+
+# public
+public/hot
+public/storage
+public/img
+public/fonts/vendor
